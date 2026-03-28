@@ -21,7 +21,7 @@ user.hobby = "taniec";
 console.log(`Moje hobby to ${user.hobby}.`);
 
 const showInfo = (person) => {
-  console.log(`Mam ${person.age} lata i interesuję się ${person.hobby}.`);
+  console.log(`Mam ${person.age} lata i interesuję mnie ${person.hobby}.`);
 };
 
 showInfo(user);
